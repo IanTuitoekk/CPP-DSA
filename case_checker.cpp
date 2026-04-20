@@ -2,6 +2,7 @@
 #include <cctype>
 using namespace std;
 
+// functions that checks the case of letters
 void checkCase(char ch) {
     if (isupper(ch)) {
         cout << "'" << ch << "' is an UPPERCASE letter." << endl;

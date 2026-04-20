@@ -1,13 +1,16 @@
 #include <iostream>
 using namespace std;
 
+// function to compute the area
 double computeArea(double side) {
     return side * side;
 }
 
+// function to compute the perimeter
 double computePerimeter(double side) {
     return side *4;
 }
+
 
 int main() {
     double side;
